@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="Blog.css" />
+    <title>Blog</title>
+  </head>
+
+<body>
+    <!--===========Nav Bar=================-->
+<section class="nav-bar">
+	<div class="logo" onclick="window.location.href='home.html';">Go Trip</div>
+	<ul class="menu">
+		<li><a href="home.html">Trang chủ</a></li>
+		<li><a href="tour.html">Tìm tours</a></li>
+		<li><a href="Bill.html">Thanh toán</a></li>
+		<li><a href="blog.html">Bài viết</a></li>
+		<li><a href="about.html">Thông tin</a></li>
+		<li><a href="contact.html">Liên hệ</a></li>
+	</ul>
+  </section>
+
+<!-----===========================Bài viết mới nhất=========================-->
+<section class="newpost">
+    <div class="section__container newpost_container">
+        <div class="newpost_image">
+            <img src="image/blog hue.jpg" alt="story" />
+        </div>
+        <div class="newpost_image img_min">
+            <img src="image/huett.jpg" alt="destination" />
+        </div>
+        <div class="newpost_content">
+          <p class="section__subheader">Bài viết mới nhất</p>
+          <h2 class="section__header">Huế chuyến đi trong tháng tư</h2>
+          <p class="title">
+            <span><i class="ri-calendar-2-fill"></i> Tháng tư/03/2024</span>
+            <span><i class="ri-user-3-fill"></i> Nguyễn Trọng Hiểu</span>
+          </p>
+          <p class="description">
+            Trải nghiệm vẻ đẹp mộng mơ của Xứ Huế cùng GoTrip vào tháng 4! Chúng tôi sẽ đưa bạn vào 
+            một hành trình khó quên. Khám phá những di tích tuyệt đẹp của các Xứ Huế, chẳng hạn như 
+            Đại Nội Huế, Lăng Tự Đức, nơi bạn có thể đắm mình dưới vẻ đẹp hoài cổ và tham gia các món ăn địa phương.
+            GoTrip, đối tác du lịch đáng tin cậy của bạn, đảm bảo một hành trình liền mạch và được lên kế hoạch rõ ràng
+          </p>
+          <a href="#">Xem thêm</a>
+        </div>
+    </div>
+</section>
+
+<!-----===========================Danh sách bài viết=========================-->
+<section class="section__container">
+    <p class="section__subheader">Có thể bạn quan tâm</p>
+    <h2 class="section__header">Bài viết được nhiều người xem nhiều</h2>
+<!----------------------------------------------------------------------------------> 
+    <div class="post-filter">
+        <span class="filter-item active-filter" data-filter="news">Bài Viết Mới</span>
+        <span class="filter-item" data-filter="khach_san">Khách Sạn Tốt</span>
+        <span class="filter-item" data-filter="mon_an">Món Ăn Ngon</span>
+        
+    </div>
+    
+    <div class="post container">
+<!------------------------- Post 1 -------------------------------------->
+<div class="post-box khach_san">
+    <img src="image/bloghotel2.jpg" alt="" class="post-img">
+    <h2 class="category">Khách Sạn Tốt</h2>
+    <a href="#" class="post-title">Mia Luxury Boutique Hotel giảm 50%</a>
+    <span><i class="ri-calendar-2-fill"></i> Ngày 27/04/2024</span>
+    <p class="post-description">Mia Sài Gòn Luxury Boutique Hotel là một khu nghỉ dưỡng 5 sao sang trọng tọa lạc 
+                                tại thành phố Thủ Đức, Việt Nam. Khu nghỉ dưỡng này có 35 phòng rộng rãi và 17 
+                                suite sang trọng với ban công riêng nhìn ra sông Sài Gòn yên bình.</p>
+    <div class="profile">
+        <img src="image/bloghotel2.jpg" alt="" class="profile-img">
+        <span class="profile-name">Nguyễn Trọng Hiểu</span>
+    </div>
+</div>
+
+<!---------------------------- Post 2 ----------------------------->
+<div class="post-box khach_san">
+    <img src="image/hotelphuquoc.jpg" alt="" class="post-img">
+    <h2 class="category">Khách Sạn Tốt</h2>
+    <a href="#" class="post-title">Khu Nghỉ Intercontinental Phú Quốc</a>
+    <span><i class="ri-calendar-2-fill"></i> Ngày 26/04/2024</span>
+    <p class="post-description">InterContinental Phú Quốc Long Beach Resort là một khu nghỉ dưỡng 5 sao sang trọng 
+                                tọa lạc trên dải phía Nam yên tĩnh của Bãi Dài, Phú Quốc. Khu nghỉ dưỡng này cung cấp
+                                459 phòng nghỉ được bài trí trang nhã.</p>
+    <div class="profile">
+        <img src="image/hotelphuquoc.jpg" alt="" class="profile-img">
+        <span class="profile-name">Lê Thị Mỹ Hiệp</span>
+    </div>
+</div>
+
+<!----------------------------- Post 3 ------------------------------>
+<div class="post-box khach_san">
+    <img src="image/bloghotel3.jpg" alt="" class="post-img">
+    <h2 class="category">Khách Sạn Tốt</h2>
+    <a href="#" class="post-title">Khách sạn Edmonds International</a>
+    <span><i class="ri-calendar-2-fill"></i> Ngày 22/04/2024</span>
+    <p class="post-description">Thức dậy sau một đêm dài tại khách sạn Edmonds International.
+                                Những tia nắng ban mai nhẹ nhàng xuyên qua những khe cửa sổ, rải rác trên 
+                                những con phố vắng lặng. /p>
+    <div class="profile">
+        <img src="image/bloghotel3.jpg" alt="" class="profile-img">
+        <span class="profile-name">Nguyễn Trọng Hiểu</span>
+    </div>
+</div>
+
+
+ <!---------------------- Post 4 ------------------------------>
+ <div class="post-box mon_an">
+    <img src="image/Blogbanhmi.jpg" alt="" class="post-img">
+    <h2 class="category">Món Ăn Ngon</h2>
+    <a href="#" class="post-title">Bánh mỳ Trạng ngon nhất Sài Gòn</a>
+    <span><i class="ri-calendar-2-fill"></i> Ngày 12/04/2024</span>
+    <p class="post-description">Bánh Mì Trạng - Hương vị đặc sắc của ẩm thực Sài Gòn” là một bài viết 
+                                chi tiết về trải nghiệm ẩm thực tại Bánh Mì Trạng, một trong những tiệm 
+                                bánh mì nổi tiếng nhất tại Sài Gòn. </p>
+    <div class="profile">
+        <img src="image/Blogbanhmi.jpg" alt="" class="profile-img">
+        <span class="profile-name">Nguyễn Trọng Hiểu</span>
+    </div>
+</div>
+
+<!----------------------- Post 5----------------------------------->
+<div class="post-box mon_an">
+    <img src="image/blogbanhxeo.jpg" alt="" class="post-img">
+    <h2 class="category">Món Ăn Ngon</h2>
+    <a href="#" class="post-title">Bánh xèo hương vị ẩm thực Việt Nam</a>
+    <span><i class="ri-calendar-2-fill"></i> Ngày 03/04/2024</span>
+    <p class="post-description">Bánh xèo là một món ăn truyền thống của Việt Nam, nổi tiếng với hương 
+                                vị đậm đà và hấp dẫn. Được chế biến từ những nguyên liệu đơn giản như bột gạo,
+                                nước dừa, tôm, thịt, gia vị và rau sống, bánh xèo không chỉ là một món ăn ngon</p>
+    <div class="profile">
+        <img src="image/blogbanhxeo.jpg" alt="" class="profile-img">
+        <span class="profile-name">Lê Thị Mỹ Hiệp</span>
+    </div>
+</div>
+        
+<!------------------------- Post 6---------------------------------->
+<div class="post-box mon_an">
+    <img src="image/blogpho.jpg" alt="" class="post-img">
+    <h2 class="category">Món Ăn Ngon</h2>
+    <a href="#" class="post-title">Phở Việt món ăn được cả thế giới ngợi ca</a>
+    <span><i class="ri-calendar-2-fill"></i> Ngày 06/04/2024</span>
+    <p class="post-description">Phở, món ăn nổi tiếng của Việt Nam, đã được ngợi ca trên toàn thế giới. Phở cơ bản nhất 
+                                bao gồm nước hầm trong suốt từ thịt bò hoặc thịt gà, bánh phở, rau thơm và thịt thái mỏng. 
+                                Món ăn này đã ghi danh mình trong thực đơn nhiều nước trên thế giới</p>
+    <div class="profile">
+        <img src="image/blogpho.jpg" alt="" class="profile-img">
+        <span class="profile-name">Nguyễn Trọng Hiểu</span>
+    </div>
+</div>
+
+<!-------------------------- Post 7 ------------------------------------>
+<div class="post-box news">
+     <img src="image/blogdanang.jpg" alt="" class="post-img">
+    <h2 class="category">Bài Viết Mới</h2>
+    <a href="#" class="post-title">Khám phá Cầu Vàng Đà Nẵng</a>
+    <span><i class="ri-calendar-2-fill"></i> Ngày 28/04/2024</span>
+    <p class="post-description">Khám Phá Cầu Vàng Đà Nẵng, hành trình đến với kỳ quan mới của Việt Nam là một bài 
+                                viết chi tiết về trải nghiệm du lịch tại Cầu Vàng, một trong những điểm du lịch nổi 
+                                tiếng nhất tại Đà Nẵng, Việt Nam.</p>
+    <div class="profile">
+        <img src="image/blogdanang.jpg" alt="" class="profile-img">
+        <span class="profile-name">Nguyễn Trọng Hiểu</span>
+    </div>
+</div>
+
+<!----------------------------- Post 8 ----------------------------->
+<div class="post-box news">
+    <img src="image/blogbue.jpg" alt="" class="post-img">
+    <h2 class="category">Bài Viết Mới</h2>
+    <a href="#" class="post-title">Vốn Cổ Dân Tộc truyền thống Việt Nam</a>
+    <span><i class="ri-calendar-2-fill"></i> Ngày 28/04/2024</span>
+    <p class="post-description">Vốn Cổ Dân Tộc truyền thống Việt Nam là một khái niệm rất rộng lớn, bao gồm 
+                                nhiều yếu tố như văn hóa, lịch sử, tôn giáo, nghệ thuật, và nhiều hơn nữa. Đây 
+                                là những giá trị quý giá được lưu truyền qua các thế hệ, tạo nên bản sắc độc đáo 
+                                của dân tộc Việt Nam</p>
+    <div class="profile">
+        <img src="image/blogbue.jpg" alt="" class="profile-img">
+        <span class="profile-name">Lê Thị Mỹ Hiệp</span>
+    </div>
+</div>
+
+<!----------------------------- Post 9 ----------------------------->
+<div class="post-box news">
+    <img src="image/hotelphuquoc.jpg" alt="" class="post-img">
+    <h2 class="category">Bài Viết Mới</h2>
+    <a href="#" class="post-title">Khu Nghỉ Intercontinental Phú Quốc</a>
+    <span><i class="ri-calendar-2-fill"></i> Ngày 028/04/2024</span>
+    <p class="post-description">InterContinental Phú Quốc Long Beach Resort là một khu nghỉ dưỡng 5 sao sang trọng 
+                                tọa lạc trên dải phía Nam yên tĩnh của Bãi Dài, Phú Quốc. Khu nghỉ dưỡng này cung cấp
+                                459 phòng nghỉ được bài trí trang nhã.</p>
+    <div class="profile">
+        <img src="image/hotelphuquoc.jpg" alt="" class="profile-img">
+        <span class="profile-name">Lê Thị Mỹ Hiệp</span>
+    </div>
+</div>
+
+
+</div>
+</section> 
+
+<!--===========Footer=================-->
+<div class="footer">
+    <div class="links">
+        <h3>CONTACT US </h3>
+        <ul>
+            <li>☎️ 0879 254 602 </li>
+            <li>☎️ 0879 562 956</li>
+            <li>📧 gotrip@gmail.com </li>
+            <li>📮 602 Kha Vạn Cân, Thủ Đức</li>
+        </ul>
+    </div>
+    <div class="links">
+        <h3>SOCIAL NETWORK</h3>
+        <ul>
+             <li> <i class="fab fa-facebook-f"></i> Facebook</li>
+            <li> <i class="fab fa-instagram"></i> Instagram</li>
+            <li> <i class="fab fa-youtube"></i>Youtube</li>
+            <li> Theo dõi ngay chúng tôi</li>
+            </ul>
+        </div>
+    <div class="links">
+        <h3>SUPPORT</h3>
+        <ul>
+            <li>Các câu hỏi thường gặp</li>
+            <li>Báo cáo vấn đề thanh toán</li>
+            <li>Điều khoản và điều kiện</li>
+            <li>Chính sách bảo mật</li>
+        </ul>
+    </div>
+</div>
+
+<script src="home.js"></script>
+</body>
+</html>
+
+<script src="Blog.js"></script>
+</body>
+</html>

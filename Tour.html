@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="Tour.css" />
+    <title>Tours du lịch</title>
+  </head>
+  <body>
+<!--===========Nav Bar=================-->
+<section class="nav-bar">
+	<div class="logo" onclick="window.location.href='home.html';">Go Trip</div>
+	<ul class="menu">
+		<li><a href="home.html">Trang chủ</a></li>
+		<li><a href="tour.html">Tìm tours</a></li>
+		<li><a href="Bill.html">Thanh toán</a></li>
+		<li><a href="blog.html">Bài viết</a></li>
+		<li><a href="about.html">Thông tin</a></li>
+		<li><a href="contact.html">Liên hệ</a></li>
+	</ul>
+  </section>
+  
+<!--===============Banner================-->
+  <section class="banner">
+    <div class="banner-text-item">
+        <div class="banner-heading">
+            <h1>Find your Next tour!</h1>
+        </div>
+        <form class="form">
+            <input type="text" list="mylist" placeholder="Bạn muốn đi đâu?">
+            <datalist id="mylist">
+                <option>Hồ Chí Minh</option>
+                <option>Hà Nội</option>
+                <option>Hội An</option>
+                <option>Quy Nhơn</option>
+                <option>Hà Giang</option>
+                <option>Huế</option>
+                <option>Yên Bái</option>
+            </datalist>
+            <input type="date" class="date">
+            <a href="#" class="book">book</a>
+        </form>
+    </div>
+  </section>
+
+
+<!--===================Ưu đãi với Gotrip======================-->
+  <section class="section__container">
+    <h2 class="section__title">Ưu đãi với Gotrip</h2>
+   
+<!-----------------------Ưu đãi 1--------------------->
+<div class="explore">
+    <div class="seller__grid">
+      <div class="seller__card">
+        <div class="seller__image">
+          <img src="image/Uudai1.jpg" alt="seller" />
+          <div class="seller__image__content">
+            <div class="badge">30%</div>
+            <div class="seller__image__footer">
+              <div class="seller__price">
+                <p>10 Ngày | 09 Đêm</p>
+                <h4>1.999.000vnđ</h4>
+              </div>
+              <button class="btn">Khám phá</button>
+            </div>
+          </div>
+        </div>
+      </div>
+  
+<!-----------------------Ưu đãi 2--------------------->  
+      <div class="seller__card">
+        <div class="seller__image">
+          <img src="image/Uudai2.jpg" alt="seller" />
+          <div class="seller__image__content">
+            <div class="badge">30%</div>
+            <div class="seller__image__footer">
+              <div class="seller__price">
+                <p>10 Ngày | 09 Đêm</p>
+                <h4>1.999.000vnđ</h4>
+              </div>
+              <button class="btn">Khám phá</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    
+<!-----------------------Ưu đãi 3--------------------->  
+    <div class="seller__card">
+      <div class="seller__image">
+        <img src="image/Uudai3.jpg" alt="seller" />
+        <div class="seller__image__content">
+          <div class="badge">30%</div>
+          <div class="seller__image__footer">
+            <div class="seller__price">
+              <p>10 Ngày | 09 Đêm</p>
+              <h4>1.999.000vnđ</h4>
+            </div>
+            <button class="btn">Khám phá</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!--===================Khám Phá Tours Du lịch cho bạn======================-->
+<section class="section__container">
+  <h2 class="section__header">Top Địa Điểm Du Lịch Được Ưu Thích</h2>
+  <div class="explore">
+  <div class="tours-filter container">
+    <span class="filter-item" data-filter="Mien_Nam">Du Lịch Miền Nam</span>
+    <span class="filter-item" data-filter="Mien_Trung">Du Lịch Miền Trung</span>
+    <span class="filter-item" data-filter="Mien_Bac">Du Lịch Miền Bắc</span>
+  </div>
+  <div class="tours container">
+<!-----------------------Miền Nam--------------------->
+<!-- Tour 1 -->
+  <div class="tours-box Mien_Nam">
+    <img src="image/Blogbanhmi.jpg" alt="" class="tours-img">
+    <h2 class="category">Du lịch miền Nam</h2>
+    <div class="text">
+      <h2 class="city">Thành Phố Hồ Chí Minh</h2>
+      <span class="rating">⭐⭐⭐⭐⭐</span>
+      <p class="cost">810.000đ/ Người</p>
+      <div class="card-box">
+        <select class="time-select">
+          <option value="3">🕓 3 Days</option>
+          <option value="5">🕓 5 Days</option>
+          <option value="7">🕓 7 Days</option>
+        </select>
+        <button class="location">✈ Hồ Chí Minh</button>
+      </div>
+    </div>
+  </div>
+          
+<!-- Tour 2 -->
+  <div class="tours-box Mien_Nam">
+    <img src="image/Vungtau.jpg" alt="" class="tours-img">
+    <h2 class="category">Du lịch miền Nam</h2>
+    <div class="text">
+      <h2 class="city">Thành Phố Biển Vũng Tàu </h2>
+      <span class="rating">⭐⭐⭐⭐⭐</span>
+      <p class="cost">810.000đ/ Người</p>
+      <div class="card-box">
+        <select class="time-select">
+          <option value="3">🕓 3 Days</option>
+          <option value="5">🕓 5 Days</option>
+          <option value="7">🕓 7 Days</option>
+        </select>
+        <button class="location">✈ Hồ Chí Minh</button>
+      </div>
+    </div>
+  </div>
+
+<!-- Tour 3 -->
+  <div class="tours-box  Mien_Nam">
+    <img src="image/phuquoc.jpg" alt="" class="tours-img">
+    <h2 class="category">Du lịch miền Nam</h2>
+    <div class="text">
+      <h2 class="city">Đảo Phú Quốc</h2>
+      <span class="rating">⭐⭐⭐⭐⭐</span>
+      <p class="cost">810.000đ/ Người</p>
+      <div class="card-box">
+        <select class="time-select">
+          <option value="3">🕓 3 Days</option>
+          <option value="5">🕓 5 Days</option>
+          <option value="7">🕓 7 Days</option>
+        </select>
+        <button class="location">✈ Hồ Chí Minh</button>
+      </div>
+    </div>
+  </div>
+
+<!-----------------------Miền Trung--------------------->
+<!-- Tours 4 -->
+  <div class="tours-box Mien_Trung">
+    <img src="image/Huee.jpg" alt="" class="tours-img">
+    <h2 class="category">Du lịch miền Trung</h2>
+    <div class="text">
+      <h2 class="city">Cố Đô Huế </h2>
+      <span class="rating">⭐⭐⭐⭐⭐</span>
+      <p class="cost">810.000đ/ Người</p>
+      <div class="card-box">
+        <select class="time-select">
+          <option value="3">🕓 3 Days</option>
+          <option value="5">🕓 5 Days</option>
+          <option value="7">🕓 7 Days</option>
+        </select>
+        <button class="location">✈ Hồ Chí Minh</button>
+      </div>
+    </div>
+  </div>
+
+<!-- Tours 5 -->
+  <div class="tours-box Mien_Trung">
+    <img src="image/quynhonn.jpg" alt="" class="tours-img">
+    <h2 class="category">Du lịch miền Trung</h2>
+    <div class="text">
+      <h2 class="city">Thành Phố Quy Nhơn </h2>
+      <span class="rating">⭐⭐⭐⭐⭐</span>
+      <p class="cost">810.000đ/ Người</p>
+      <div class="card-box">
+        <select class="time-select">
+          <option value="3">🕓 3 Days</option>
+          <option value="5">🕓 5 Days</option>
+          <option value="7">🕓 7 Days</option>
+        </select>
+        <button class="location">✈ Hồ Chí Minh</button>
+      </div>
+    </div>
+  </div>
+          
+<!-- Tours 6 -->
+  <div class="tours-box Mien_Trung">
+    <img src="image/hoiannn.jpg" alt="" class="tours-img">
+    <h2 class="category">Du lịch miền Trung</h2>
+    <div class="text">
+      <h2 class="city">Phố Cổ Hội An</h2>
+      <span class="rating">⭐⭐⭐⭐⭐</span>
+      <p class="cost">810.000đ/ Người</p>
+      <div class="card-box">
+        <select class="time-select">
+          <option value="3">🕓 3 Days</option>
+          <option value="5">🕓 5 Days</option>
+          <option value="7">🕓 7 Days</option>
+        </select>
+        <a href="HoiAn.html"><button class="location">✈ Hồ Chí Minh</button></a>
+      </div>
+    </div>
+  </div>
+
+<!---------------------Miền Bắc------------------------->
+<!-- Tour 7 -->
+  <div class="tours-box Mien_Bac">
+    <img src="image/hannoii.jpg" alt="" class="tours-img">
+    <h2 class="category">Du lịch miền Bắc</h2>
+    <div class="text">
+      <h2 class="city">Thủ Đô Hà Nội</h2>
+      <span class="rating">⭐⭐⭐⭐⭐</span>
+      <p class="cost">810.000đ/ Người</p>
+      <div class="card-box">
+        <select class="time-select">
+          <option value="3">🕓 3 Days</option>
+          <option value="5">🕓 5 Days</option>
+          <option value="7">🕓 7 Days</option>
+        </select>
+        <button class="location">✈ Hồ Chí Minh</button>
+      </div>
+    </div>
+  </div>
+
+<!-- Tour 8 -->
+  <div class="tours-box Mien_Bac">
+    <img src="image/Hagiang.jpg" alt="" class="tours-img">
+    <h2 class="category">Du lịch miền Bắc</h2>
+    <div class="text">
+      <h2 class="city">Hà Giang </h2>
+      <span class="rating">⭐⭐⭐⭐⭐</span>
+      <p class="cost">810.000đ/ Người</p>
+      <div class="card-box">
+        <select class="time-select">
+          <option value="3">🕓 3 Days</option>
+          <option value="5">🕓 5 Days</option>
+          <option value="7">🕓 7 Days</option>
+        </select>
+        <button class="location">✈ Hồ Chí Minh</button>
+      </div>
+    </div>
+  </div>
+<!-- Tour 9 -->
+  <div class="tours-box Mien_Bac">
+    <img src="image/Ninhbinh.jpg" alt="" class="tours-img">
+    <h2 class="category">Du lịch miền Bắc</h2>
+    <div class="text">
+      <h2 class="city">Thành Phố Ninh Bình </h2>
+      <span class="rating">⭐⭐⭐⭐⭐</span>
+      <p class="cost">810.000đ/ Người</p>
+      <div class="card-box">
+        <select class="time-select">
+          <option value="3">🕓 3 Days</option>
+          <option value="5">🕓 5 Days</option>
+          <option value="7">🕓 7 Days</option>
+        </select>
+        <button class="location">✈ Hồ Chí Minh</button>
+      </div>
+    </div>
+  </div>
+</div>
+</section>
+
+<!--===========Đăng ký===============-->
+<section class="subscribe">
+  <div class="section__containersub subscribe__container">
+      <div class="subscribe__content">
+          <h2 class="section__title">Đăng ký để nhận giải nhiều ưu đãi</h2>
+          <p class="section__subtitle">
+              Khám phá những địa điểm phù hợp với mơ ước của bạn trên khắp Việt Nam. Ở đây bạn
+              có thể tìm được điểm đến phù hợp của mình.
+          </p>
+      </div>
+      <div class="subscribe__form">
+          <form>
+              <input type="email" placeholder="Nhận Email của bạn" />
+              <button class="btnsub" type="submit" onclick="showAlert()">Gửi</button>
+          </form>
+      </div>
+  </div>
+</section>
+
+<!--===========Footer=================-->
+<div class="footer">
+  <div class="links">
+      <h3>CONTACT US </h3>
+      <ul>
+          <li>☎️ 0879 254 602 </li>
+          <li>☎️ 0879 562 956</li>
+          <li>📧 gotrip@gmail.com </li>
+          <li>📮 602 Kha Vạn Cân, Thủ Đức</li>
+      </ul>
+  </div>
+  <div class="links">
+      <h3>SOCIAL NETWORK</h3>
+      <ul>
+           <li> <i class="fab fa-facebook-f"></i> Facebook</li>
+          <li> <i class="fab fa-instagram"></i> Instagram</li>
+          <li> <i class="fab fa-youtube"></i>Youtube</li>
+          <li> Theo dõi ngay chúng tôi</li>
+          </ul>
+      </div>
+  <div class="links">
+      <h3>SUPPORT</h3>
+      <ul>
+          <li>Các câu hỏi thường gặp</li>
+          <li>Báo cáo vấn đề thanh toán</li>
+          <li>Điều khoản và điều kiện</li>
+          <li>Chính sách bảo mật</li>
+      </ul>
+  </div>
+</div>
+
+<script src="Tour.js"></script>
+</body>
+</html>

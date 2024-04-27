@@ -1,0 +1,99 @@
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url("https://cdnimgen.vietnamplus.vn/t620/uploaded/wbxx/2021_12_20/vn.jpg");
+    background-size: cover;
+}
+
+.card {
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 30px;
+    padding: 10px;
+    width: 70%;
+    height: 480px;
+    background: linear-gradient(to right, #f64f59, #c471ed, #12c2e9); 
+}
+
+.left-container {
+    background: #f4d805; 
+    width: 40vh;
+    height:430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+img {
+    width: 200px;
+    height: 200px;
+    max-width: 200px;
+    border-radius: 50%;
+    margin: 10px;
+    object-fit: cover;
+}
+
+  
+h2 {
+    margin-top: 50px;
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+.right-container {
+    background: #f4d805; 
+    width: 80vh;
+    height:430px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 10px;
+    margin: 30px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  table {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 280px; 
+    margin-left: 16px;
+    margin-top: 50px;
+  }
+  
+  td {
+    padding: 2px;
+    font-size: 20px;
+    border-radius: 20px;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+  }
+
+.btn {
+    width: 100px;
+    height: 50px;
+    border-radius: 15px;
+    cursor: pointer;
+}
+
+.btn:active{
+    background-color: #ff8000;
+}
+  
+ 
+
+
+
+

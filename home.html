@@ -1,0 +1,419 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet"
+  />
+    <link rel="stylesheet" href="home.css" />
+    <title>Go Trip</title>
+</head>
+
+<body>
+
+<!--===========Nav Bar=================-->
+<section class="nav-bar">
+	<div class="logo" onclick="window.location.href='home.html';">Go Trip</div>
+	<ul class="menu">
+		<li><a href="home.html">Trang chủ</a></li>
+		<li><a href="tour.html">Tìm tours</a></li>
+		<li><a href="Bill.html">Thanh toán</a></li>
+		<li><a href="blog.html">Bài viết</a></li>
+		<li><a href="about.html">Thông tin</a></li>
+		<li><a href="contact.html">Liên hệ</a></li>
+	</ul>
+  </section>
+        
+<!--===============Banner================-->
+    <section class="banner">
+        <div class="banner-text-item">
+            <div class="banner-heading">
+                <h1>Find your Next tour!</h1>
+            </div>
+            <form class="form">
+                <input type="text" list="mylist" placeholder="Bạn muốn đi đâu?">
+                <datalist id="mylist">
+                    <option>Hồ Chí Minh</option>
+                    <option>Hà Nội</option>
+                    <option>Hội An</option>
+                    <option>Quy Nhơn</option>
+                    <option>Hà Giang</option>
+                    <option>Huế</option>
+                    <option>Yên Bái</option>
+                </datalist>
+                <input type="date" class="date">
+                <a href="#" class="book">book</a>
+            </form>
+        </div>
+    </section>
+
+<!--=========Services===============-->
+    <section class="services">
+        <div class="service-item">
+            <img src="image/nd.jpg">
+            <h2>800+ Hướng Dẫn Viên Nội Địa</h2>
+        </div>
+        <div class="service-item">
+            <img src="image/food.jpg">
+            <h2>100% Ẩm Thực Địa Phương</h2>
+        </div>
+        <div class="service-item">
+            <img src="image/28.jpg">
+            <h2>28+ Kinh Nghiệm Trong Tour Du Lịch</h2>
+        </div>
+        <div class="service-item">
+            <img src="image/ok.jpg">
+            <h2>98% Khách Du Lịch Hài Lòng</h2>
+        </div>
+    </section>
+
+<!--===================Khám Phá Tours Du lịch cho bạn======================-->
+<section class="section__container">
+    <h2 class="section__header">Top Địa Điểm Du Lịch Được Ưu Thích</h2>
+    <div class="explore">
+    <div class="tours-filter container">
+      <span class="filter-item" data-filter="Mien_Nam">Du Lịch Miền Nam</span>
+      <span class="filter-item" data-filter="Mien_Trung">Du Lịch Miền Trung</span>
+      <span class="filter-item" data-filter="Mien_Bac">Du Lịch Miền Bắc</span>
+    </div>
+    <div class="tours container">
+  <!-----------------------Miền Nam--------------------->
+  <!-- Tour 1 -->
+    <div class="tours-box Mien_Nam">
+      <img src="image/Blogbanhmi.jpg" alt="" class="tours-img">
+      <h2 class="category">Du lịch miền Nam</h2>
+      <div class="text">
+        <h2 class="city">Thành Phố Hồ Chí Minh</h2>
+        <span class="rating">⭐⭐⭐⭐⭐</span>
+        <p class="cost">810.000đ/ Người</p>
+        <div class="card-box">
+          <select class="time-select">
+            <option value="3">🕓 3 Days</option>
+            <option value="5">🕓 5 Days</option>
+            <option value="7">🕓 7 Days</option>
+          </select>
+          <button class="location">✈ Hồ Chí Minh</button>
+        </div>
+      </div>
+    </div>
+            
+  <!-- Tour 2 -->
+    <div class="tours-box Mien_Nam">
+      <img src="image/Vungtau.jpg" alt="" class="tours-img">
+      <h2 class="category">Du lịch miền Nam</h2>
+      <div class="text">
+        <h2 class="city">Thành Phố Biển Vũng Tàu </h2>
+        <span class="rating">⭐⭐⭐⭐⭐</span>
+        <p class="cost">810.000đ/ Người</p>
+        <div class="card-box">
+          <select class="time-select">
+            <option value="3">🕓 3 Days</option>
+            <option value="5">🕓 5 Days</option>
+            <option value="7">🕓 7 Days</option>
+          </select>
+          <button class="location">✈ Hồ Chí Minh</button>
+        </div>
+      </div>
+    </div>
+  
+  <!-- Tour 3 -->
+    <div class="tours-box  Mien_Nam">
+      <img src="image/phuquoc.jpg" alt="" class="tours-img">
+      <h2 class="category">Du lịch miền Nam</h2>
+      <div class="text">
+        <h2 class="city">Đảo Phú Quốc</h2>
+        <span class="rating">⭐⭐⭐⭐⭐</span>
+        <p class="cost">810.000đ/ Người</p>
+        <div class="card-box">
+          <select class="time-select">
+            <option value="3">🕓 3 Days</option>
+            <option value="5">🕓 5 Days</option>
+            <option value="7">🕓 7 Days</option>
+          </select>
+          <button class="location">✈ Hồ Chí Minh</button>
+        </div>
+      </div>
+    </div>
+  
+  <!-----------------------Miền Trung--------------------->
+  <!-- Tours 4 -->
+    <div class="tours-box Mien_Trung">
+      <img src="image/Huee.jpg" alt="" class="tours-img">
+      <h2 class="category">Du lịch miền Trung</h2>
+      <div class="text">
+        <h2 class="city">Cố Đô Huế </h2>
+        <span class="rating">⭐⭐⭐⭐⭐</span>
+        <p class="cost">810.000đ/ Người</p>
+        <div class="card-box">
+          <select class="time-select">
+            <option value="3">🕓 3 Days</option>
+            <option value="5">🕓 5 Days</option>
+            <option value="7">🕓 7 Days</option>
+          </select>
+          <button class="location">✈ Hồ Chí Minh</button>
+        </div>
+      </div>
+    </div>
+  
+  <!-- Tours 5 -->
+    <div class="tours-box Mien_Trung">
+      <img src="image/quynhonn.jpg" alt="" class="tours-img">
+      <h2 class="category">Du lịch miền Trung</h2>
+      <div class="text">
+        <h2 class="city">Thành Phố Quy Nhơn </h2>
+        <span class="rating">⭐⭐⭐⭐⭐</span>
+        <p class="cost">810.000đ/ Người</p>
+        <div class="card-box">
+          <select class="time-select">
+            <option value="3">🕓 3 Days</option>
+            <option value="5">🕓 5 Days</option>
+            <option value="7">🕓 7 Days</option>
+          </select>
+          <button class="location">✈ Hồ Chí Minh</button>
+        </div>
+      </div>
+    </div>
+            
+  <!-- Tours 6 -->
+    <div class="tours-box Mien_Trung">
+      <img src="image/hoiannn.jpg" alt="" class="tours-img">
+      <h2 class="category">Du lịch miền Trung</h2>
+      <div class="text">
+        <h2 class="city">Phố Cổ Hội An</h2>
+        <span class="rating">⭐⭐⭐⭐⭐</span>
+        <p class="cost">810.000đ/ Người</p>
+        <div class="card-box">
+          <select class="time-select">
+            <option value="3">🕓 3 Days</option>
+            <option value="5">🕓 5 Days</option>
+            <option value="7">🕓 7 Days</option>
+          </select>
+          <a href="HoiAn.html"><button class="location">✈ Hồ Chí Minh</button></a>
+        </div>
+      </div>
+    </div>
+  
+  <!---------------------Miền Bắc------------------------->
+  <!-- Tour 7 -->
+    <div class="tours-box Mien_Bac">
+      <img src="image/hannoii.jpg" alt="" class="tours-img">
+      <h2 class="category">Du lịch miền Bắc</h2>
+      <div class="text">
+        <h2 class="city">Thủ Đô Hà Nội</h2>
+        <span class="rating">⭐⭐⭐⭐⭐</span>
+        <p class="cost">810.000đ/ Người</p>
+        <div class="card-box">
+          <select class="time-select">
+            <option value="3">🕓 3 Days</option>
+            <option value="5">🕓 5 Days</option>
+            <option value="7">🕓 7 Days</option>
+          </select>
+          <button class="location">✈ Hồ Chí Minh</button>
+        </div>
+      </div>
+    </div>
+  
+  <!-- Tour 8 -->
+    <div class="tours-box Mien_Bac">
+      <img src="image/Hagiang.jpg" alt="" class="tours-img">
+      <h2 class="category">Du lịch miền Bắc</h2>
+      <div class="text">
+        <h2 class="city">Hà Giang </h2>
+        <span class="rating">⭐⭐⭐⭐⭐</span>
+        <p class="cost">810.000đ/ Người</p>
+        <div class="card-box">
+          <select class="time-select">
+            <option value="3">🕓 3 Days</option>
+            <option value="5">🕓 5 Days</option>
+            <option value="7">🕓 7 Days</option>
+          </select>
+          <button class="location">✈ Hồ Chí Minh</button>
+        </div>
+      </div>
+    </div>
+  <!-- Tour 9 -->
+    <div class="tours-box Mien_Bac">
+      <img src="image/Ninhbinh.jpg" alt="" class="tours-img">
+      <h2 class="category">Du lịch miền Bắc</h2>
+      <div class="text">
+        <h2 class="city">Thành Phố Ninh Bình </h2>
+        <span class="rating">⭐⭐⭐⭐⭐</span>
+        <p class="cost">810.000đ/ Người</p>
+        <div class="card-box">
+          <select class="time-select">
+            <option value="3">🕓 3 Days</option>
+            <option value="5">🕓 5 Days</option>
+            <option value="7">🕓 7 Days</option>
+          </select>
+          <button class="location">✈ Hồ Chí Minh</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  </section>
+  
+<!--=========Photo===============-->
+<section class="explore-section">
+    <h1 class="section-title">Những Tấm Ảnh Bạn Có thể Chụp</h1>
+        <p class="section-para">Mỗi bức ảnh chụp bởi du khách là một câu chuyện riêng biệt, 
+            một khoảnh khắc đáng nhớ được ghi lại qua từng góc độ, màu sắc và ánh sáng.</p>
+
+    <!-----------------Ảnh 1----------------------->
+    <div class="tours-container">
+        <div class="tour-card">
+            <img src="image/ptSG.jpg" class="tour-img" alt="tour-image">
+            <div class="tour-body">
+                <h3 class="tour-name">Hồ Chí Minh City</h3>
+                <p class="tour-action">View city</p>
+            </div>
+        </div>
+    <!-----------------Ảnh 2----------------------->
+        <div class="tour-card">
+            <img src="image/ptsbanh.jpg" class="tour-img" alt="tour-image">
+            <div class="tour-body">
+                <h3 class="tour-name">Bánh Mỳ Việt Nam</h3>
+                <p class="tour-action">View city</p>
+            </div>
+        </div>
+    <!-----------------Ảnh 3----------------------->
+        <div class="tour-card">
+            <img src="image/pthuee.jpg" class="tour-img" alt="tour-image">
+            <div class="tour-body">
+                <h3 class="tour-name">Kinh Thành Huế</h3>
+                <p class="tour-action">View city</p>
+            </div>
+        </div>
+    <!-----------------Ảnh 4----------------------->
+        <div class="tour-card">
+            <img src="image/pthoian.jpg" class="tour-img" alt="tour-image">
+            <div class="tour-body">
+                <h3 class="tour-name">Phố Cổ Hội An</h3>
+                <p class="tour-action">View city</p>
+            </div>
+        </div>
+    <!-----------------Ảnh 5----------------------->
+        <div class="tour-card">
+            <img src="image/ptsninhbinh.jpg" class="tour-img" alt="tour-image">
+            <div class="tour-body">
+                <h3 class="tour-name">Thành Phố Ninh Bình</h3>
+                <p class="tour-action">View city</p>
+            </div>
+        </div>
+    <!-----------------Ảnh 6----------------------->
+        <div class="tour-card">
+            <img src="image/ptvn.jpg" class="tour-img" alt="tour-image">
+            <div class="tour-body">
+                <h3 class="tour-name">Thành Phố Hồ Chí Minh</h3>
+                <p class="tour-action">View city</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!--===================Blog======================-->
+<section class="section__container">
+    <h2 class="section__header">Bạn Chưa Biết Đi Đâu - Xem Ngay Gợi Ý</h2>
+    <div class="explore">
+    <div class="tours container">
+<!-- Blog 1 -->
+    <div class="tours-box Mien_Nam">
+      <img src="image/blogbue.jpg" alt="" class="tours-img">
+      <a href="#" class="post-title">Vốn Cổ Dân Tộc truyền thống Việt Nam</a>
+      <span><i class="ri-calendar-2-fill"></i> Ngày 24/04/2024</span>
+      <p class="post-description">Vốn Cổ Dân Tộc truyền thống Việt Nam là một khái niệm rất rộng lớn, bao gồm 
+                                  nhiều yếu tố như văn hóa, lịch sử, tôn giáo, nghệ thuật, và nhiều hơn nữa. Đây 
+                                  là những giá trị quý giá được lưu truyền qua các thế hệ, tạo nên bản sắc độc đáo
+                                  của dân tộc Việt Nam</p>
+        <div class="profile">
+            <img src="image/blogbue.jpg" alt="" class="profile-img">
+            <span class="profile-name">Lê Thị Mỹ Hiệp</span>
+        </div>
+    </div>
+            
+  <!-- Blog 2 -->
+  <div class="tours-box Mien_Nam">
+    <img src="image/blogdanang.jpg" alt="" class="tours-img">
+    <a href="#" class="post-title">Khám phá Cầu Vàng Đà Nẵng</a>
+    <span><i class="ri-calendar-2-fill"></i> Ngày 24/04/2024</span>
+    <p class="post-description">Khám Phá Cầu Vàng Đà Nẵng, hành trình đến với kỳ quan mới của Việt Nam là một bài 
+                                viết chi tiết về trải nghiệm du lịch tại Cầu Vàng, một trong những điểm du lịch nổi 
+                                tiếng nhất tại Đà Nẵng, Việt Nam.</p>
+      <div class="profile">
+          <img src="image/blogdanang.jpg" alt="" class="profile-img">
+          <span class="profile-name">Lê Thị Mỹ Hiệp</span>
+      </div>
+  </div>
+  
+  <!-- Blog 3 -->
+  <div class="tours-box Mien_Nam">
+    <img src="image/blogbanhxeo.jpg" alt="" class="tours-img">
+    <a href="#" class="post-title">Bánh xèo hương vị ẩm thực Việt Nam</a>
+    <span><i class="ri-calendar-2-fill"></i> Ngày 25/04/2024</span>
+    <p class="post-description">Bánh xèo là một món ăn truyền thống của Việt Nam, nổi tiếng với hương 
+                                vị đậm đà và hấp dẫn. Được chế biến từ những nguyên liệu đơn giản như bột gạo,
+                                nước dừa, tôm, thịt, gia vị và rau sống, bánh xèo không chỉ là một món ăn ngon</p>
+      <div class="profile">
+          <img src="image/blogbanhxeo.jpg" alt="" class="profile-img">
+          <span class="profile-name">Lê Thị Mỹ Hiệp</span>
+      </div>
+  </div>
+</div>
+</div>
+</section>
+
+<!--===========About Us===============-->
+<section class="about">
+    <div class="about-img">
+        <img src="image/vn map.webp">
+    </div>
+    <div class="about-text">
+        <small>VỀ CÔNG TY CHÚNG TÔI</small>
+        <h2>Chúng Tôi Công Ty EC Go Trip Travels</h2>
+        <p>"EC Go Trip Travels - nơi mỗi chuyến đi không chỉ là một hành trình, mà còn là một trải nghiệm đáng nhớ.
+            Chúng tôi tự hào mang đến dịch vụ du lịch đẳng cấp, những cuộc phiêu lưu mới lạ."</p>
+            <label><input type="checkbox" checked> Đội ngũ hướng dẫn viên du lịch kinh nghiệm.</label>
+            <label><input type="checkbox" checked> Mang đến các chuyến du lịch vui nhất.</label>
+            <label><input type="checkbox" checked> Chi phí phù hợp - Thương hiệu uy tín.</label>
+            <label><input type="checkbox" checked> Sứ mệnh mang du lịch đến mọi người.</label>
+            <a href="about.html">NHIỀU HƠN</a>
+        </div>
+</section>
+
+<!--===========Footer=================-->
+<div class="footer">
+    <div class="links">
+        <h3>CONTACT US </h3>
+        <ul>
+            <li>☎️ 0879 254 602 </li>
+            <li>☎️ 0879 562 956</li>
+            <li>📧 gotrip@gmail.com </li>
+            <li>📮 602 Kha Vạn Cân, Thủ Đức</li>
+        </ul>
+    </div>
+    <div class="links">
+        <h3>SOCIAL NETWORK</h3>
+        <ul>
+             <li> <i class="fab fa-facebook-f"></i> Facebook</li>
+            <li> <i class="fab fa-instagram"></i> Instagram</li>
+            <li> <i class="fab fa-youtube"></i>Youtube</li>
+            <li> Theo dõi ngay chúng tôi</li>
+            </ul>
+        </div>
+    <div class="links">
+        <h3>SUPPORT</h3>
+        <ul>
+            <li>Các câu hỏi thường gặp</li>
+            <li>Báo cáo vấn đề thanh toán</li>
+            <li>Điều khoản và điều kiện</li>
+            <li>Chính sách bảo mật</li>
+        </ul>
+    </div>
+</div>
+
+<script src="home.js"></script>
+</body>
+</html>

@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@3.2.0/fonts/remixicon.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="about.css" />
+    <title>About Us</title>
+  </head>
+
+<body>
+<!--===========Nav Bar=================-->
+<section class="nav-bar">
+    <div class="logo" onclick="window.location.href='home.html';">Go Trip</div>
+    <ul class="menu">
+        <li><a href="home.html">Trang chủ</a></li>
+        <li><a href="tour.html">Tìm tours</a></li>
+        <li><a href="Bill.html">Thanh toán</a></li>
+        <li><a href="blog.html">Bài viết</a></li>
+        <li><a href="about.html">Thông tin</a></li>
+        <li><a href="contact.html">Liên hệ</a></li>
+    </ul>
+  </section>
+
+<!--===========PR===============-->
+    <header>
+        <div class="section__container header__container">
+            <div class="header__image">
+                <img src="image/TH.jpg" alt="header" />
+                <img src="image/Hiep.png" alt="header" />
+            </div>
+            <div class="header__content"> 
+                <div>
+                    <h1>VUI LÊN 😊<br />Cùng Gotrip</h1>
+                    <p class="section__subtitle">
+                        Làm cho chuyến đi của bạn thú vị hơn với chúng tôi. 
+                        Chúng tôi là đại lý du lịch tốt nhất và chúng tôi đang cung cấp các dịch vụ du lịch tốt nhất cho khách hàng của chúng tôi.
+                    </p>
+                    <div class="action__btns">
+                        <button class="btn" onclick="location.href='contact.html'">Đăng Ký Ngay</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    
+<!--=============================================Memmerber===================================-->  
+    <section class="section__container">
+        <div class="section__header">
+            <div>
+                <h2 class="section__title">Thành Viên GoTrip</h2>
+                <p class="section__subtitle">
+                    Khám phá những địa điểm phù hợp với mơ ước của bạn trên khắp Việt Nam. Ở đây bạn
+                    có thể tìm được điểm đến phù hợp của mình.
+                </p>
+            </div>
+        </div>
+        <div class="destination__grid">
+            <div class="destination__card">
+                <img src="image/Hiep.png" alt="destination" />
+                <div class="destination__details">
+                    <p class="destination__title">Lê Thị Mỹ Hiệp</p>
+                    <p class="destination__subtitle">Thành Viên Gotrip</p>
+                </div>
+            </div>
+            <div class="destination__card">
+                <img src="image/TH2.jpg" alt="destination" />
+                <div class="destination__details">
+                    <p class="destination__title">Nguyễn Trọng Hiểu</p>
+                    <p class="destination__subtitle">Thành Viên Gotrip</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+<!--===================================Ảnh map Việt Nam===============================--> 
+    <div class="map">
+        <img src="image/mapvnn.jpg" alt="destination" />
+    </div>
+
+<!--=====================================About Us=======================================-->
+    <section class="about">
+        <div class="about-img">
+            <img src="image/vn map.webp">
+        </div>
+        <div class="about-text">
+            <small> VỀ CÔNG TY CHÚNG TÔI</small>
+            <h2>Chúng Tôi Công Ty EC Go Trip Travels</h2>
+            <p>"EC Go Trip Travels - nơi mỗi chuyến đi không chỉ là một hành trình, mà còn là một trải nghiệm đáng nhớ.
+                Chúng tôi tự hào mang đến dịch vụ du lịch đẳng cấp, những cuộc phiêu lưu mới lạ."
+            </p>
+            <label><input type="checkbox" checked> Đội ngũ hướng dẫn viên du lịch kinh nghiệm.</label>
+            <label><input type="checkbox" checked> Mang đến các chuyến du lịch vui nhất.</label>
+            <label><input type="checkbox" checked> Chi phí phù hợp - Thương hiệu uy tín.</label>
+            <label><input type="checkbox" checked> Sứ mệnh mang du lịch đến mọi người.</label>
+            <a href="Tour.html">Tìm Vé Ngay</a>
+        </div>
+    </section>
+   
+<!--===========Sub===============-->
+    <section class="subscribe">
+        <div class="section__container subscribe__container">
+            <div class="subscribe__content">
+                <h2 class="section__title">Đăng ký để nhận giải nhiều ưu đãi</h2>
+                <p class="section__subtitle">
+                    Khám phá những địa điểm phù hợp với mơ ước của bạn trên khắp Việt Nam. Ở đây bạn
+                    có thể tìm được điểm đến phù hợp của mình.
+                </p>
+            </div>
+            <div class="subscribe__form">
+                <form>
+                    <input type="email" placeholder="Your email here" />
+                    <button class="btn" onclick="Gửi()">Gửi</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+<script> function Gửi() {
+    alert("Chúng tôi sẽ liên hệ với bạn sớm nhất");
+  }
+</script>
+
+</body>
+</html>

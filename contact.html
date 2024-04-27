@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <link rel="stylesheet" href="contactcss.css" />
+    <title>Contact Us</title>
+</head>
+<body>
+<!--===========Nav Bar=================-->
+<section class="nav-bar">
+	<div class="logo" onclick="window.location.href='home.html';">Go Trip</div>
+	<ul class="menu">
+		<li><a href="home.html">Trang chủ</a></li>
+		<li><a href="tour.html">Tìm tours</a></li>
+		<li><a href="Bill.html">Thanh toán</a></li>
+		<li><a href="blog.html">Bài viết</a></li>
+		<li><a href="about.html">Thông tin</a></li>
+		<li><a href="contact.html">Liên hệ</a></li>
+	</ul>
+  </section>
+      <!--===========COntact=================-->   
+    <div class="container">
+        <img src="image/lienhe.png" alt="Your Image" class="left-image" />
+
+	<form>
+		<h1 class="title text-center mb-4">Talk Us Go Trip</h1>
+
+			<!-- Tên -->
+			<div class="form-group position-relative">
+				<label for="formName" class="d-block">
+					<i class="icon" data-feather="user"></i>
+				</label>
+				<input id="formName" class="form-control form-control-lg thick" placeholder="Nhập tên của bạn">
+			</div>
+
+			<!-- E-mail -->
+			<div class="form-group position-relative">
+				<label for="formEmail" class="d-block">
+					<i class="icon" data-feather="mail"></i>
+				</label>
+				<input id="formEmail" class="form-control form-control-lg thick" placeholder="Nhập email của bạn">
+			</div>
+
+			<!-- Tin nhắn -->
+			<div class="form-group message">
+				<textarea id="formMessage" class="form-control form-control-lg" rows="4" placeholder="Nội dung tin nhắn"></textarea>
+			</div>
+		
+			<!-- Gửi -->
+			<div class="text-center">
+				<button class="btn btn-primary" onclick="bookNow()">Gửi tin nhắn</button>
+			</div>
+	</form>
+
+
+</div>
+
+ <!--===========Footer=================-->
+ <div class="footer">
+	<div class="links">
+		<h3>CONTACT US </h3>
+		<ul>
+			<li>☎️ 0879 254 602 </li>
+			<li>☎️ 0879 562 956t</li>
+			<li>📧 gotrip@gmail.com </li>
+			<li>📮 602 Kha Vạn Cân, Thủ Đức</li>
+		</ul>
+	</div>
+	<div class="links">
+		<h3>SOCIAL NETWORK</h3>
+		<ul>
+			<li> <i class="fab fa-facebook-f"></i> Facebook</li>
+			<li> <i class="fab fa-instagram"></i> Instagram</li>
+			<li> <i class="fab fa-youtube"></i>Youtube</li>
+			<li> Theo dõi ngay chúng tôi</li>
+		</ul>
+	</div>
+	<div class="links">
+		<h3>SUPPORT</h3>
+		<ul>
+			<li>Các câu hỏi thường gặp</li>
+			<li>Báo cáo vấn đề thanh toán</li>
+			<li>Điều khoản và điều kiện</li>
+			<li>Chính sách bảo mật</li>
+		</ul>
+	</div>
+</div>
+
+
+<script>function bookNow() {
+	alert("Chúng tôi sẽ liên hệ với bạn sớm nhất");
+  }
+</script>
+</Body>
